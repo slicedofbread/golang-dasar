@@ -2,10 +2,13 @@ package main
 
 import "fmt"
 
-func main() {
-	goodBye := func(name string) string {
-		return "Goodbye, " + name
-	}
+func goodBye(name string) string {
+	return "good bye " + name
+}
 
-	fmt.Println(goodBye("bread"))
+func main() {
+	contoh := goodBye
+
+	fmt.Println(contoh("bread"))
+
 }
