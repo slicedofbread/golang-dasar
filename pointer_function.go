@@ -13,5 +13,5 @@ func ChangeCityToBandung(address *address) {
 func main() {
 	alamat := &address{}
 	ChangeCityToBandung(alamat)
-	fmt.Println(alamat) // akan mencetak: {bandung DKI Jakarta Indonesia}
+	fmt.Println(alamat)
 }
