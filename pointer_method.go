@@ -6,7 +6,7 @@ type Man struct {
 	Name string
 }
 
-func (man Man) Married() {
+func (man *Man) Married() {
 	man.Name = "Mr " + man.Name
 }
 
